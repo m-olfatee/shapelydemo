@@ -1,0 +1,83 @@
+body {
+    margin: 3px 0 0 0;
+}
+header {
+    font-family: 'Raleway', sans-serif;
+    border-top: 2px solid #444;
+}
+
+
+.logo {
+    font-size: 2em;
+    color: #666;
+    padding-left: 5%;
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    padding-right: 10%;
+}
+header li a {
+    color: #333;
+    text-decoration: none;
+}
+header li {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+}
+header li a:hover{ 
+    color: #337ab7;
+
+}
+.logo:hover {
+    color: #333;
+}
+main {
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+main h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+
+}
+main .read {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: rgb(129, 58, 255);
+    color: white;
+}
+main .read:hover {
+    background-color: #5234f9;
+}
+main .download {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+main .download:hover {
+    background-color: white;
+    color: black;
+}
+div a {
+    text-decoration: none;
+}
+
